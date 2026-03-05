@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
-  <ShortName>Google (Тільки UA/EN)</ShortName>
-  <Description>Пошук Google без російських сайтів</Description>
+  <ShortName>Google UA</ShortName>
+  <Description>Чистий пошук</Description>
   <InputEncoding>UTF-8</InputEncoding>
   <Url type="text/html" template="https://www.google.com/search?q={searchTerms}&amp;lr=lang_uk|lang_en"/>
-  <Image width="16" height="16" type="image/x-icon">https://www.google.com/favicon.ico</Image>
+  <SearchForm>https://www.google.com/search</SearchForm>
 </OpenSearchDescription>
+
